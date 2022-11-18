@@ -37,7 +37,7 @@ resource "azurerm_storage_account" "dev" {
   account_kind             = "StorageV2"
  
   static_website {
-    index_document = "index.html"
+    index_document = "/../index.html"
   }
 }
  
